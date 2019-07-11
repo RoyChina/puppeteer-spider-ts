@@ -7,8 +7,8 @@
     "init": "tsc --init",
     "tsc": "tsc",
     "dev": "ts-node-dev --respawn --transpileOnly index.ts",
-    "build": "tsc",
-    "prod": "tsc && node ./build/index.js"
+    "build": "rm -rf ./build && tsc && cp -r ./{tasks,lib} ./build/",
+    "prod": "npm run build && node ./build/index.js"
   },
   "author": "roy",
   "license": "ISC",
