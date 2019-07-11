@@ -1,0 +1,31 @@
+{
+  "name": "puppeteer-spider-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init": "tsc --init",
+    "tsc": "tsc",
+    "dev": "ts-node-dev --respawn --transpileOnly index.ts",
+    "build": "tsc",
+    "prod": "tsc && node ./build/index.js"
+  },
+  "author": "roy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/async": "^3.0.0",
+    "@types/puppeteer": "^1.12.4",
+    "async": "^3.1.0",
+    "puppeteer": "^1.18.1",
+    "wake-lock": "^0.2.0"
+  },
+  "devDependencies": {
+    "fast-csv": "^3.0.1",
+    "prettier": "^1.18.2",
+    "ts-node-dev": "^1.0.0-pre.40",
+    "tslint": "^5.18.0",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-plugin-prettier": "^2.0.1",
+    "typescript": "^3.5.2"
+  }
+}
