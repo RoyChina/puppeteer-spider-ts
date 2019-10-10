@@ -1,7 +1,7 @@
-///<refrence path="./tasks/task.d.ts" />;
-import puppeteer from "puppeteer";
 import batchTasks from "./batchTasks";
 import path from "path";
+///<refrence path="./tasks/task.d.ts" />;
+import puppeteer from "puppeteer";
 const { WakeLock } = require("wake-lock");
 
 async function main(params: void) {
