@@ -1,4 +1,12 @@
 # puppeteer-spider-ts
-基于puppeteer的爬虫，灵活配置js文件可以爬各类网站
+Puppeteer-based crawler, flexible configuration of js files can climb various websites
+
+### Todo list
+
+- [ ] Task flow editor
+- [ ] Multithreading based on node
+- [ ] IP anti-sealing
+- [ ] Rate control
+- [ ] Various website configuration templates
 
 ![avatar](./flow.png)
