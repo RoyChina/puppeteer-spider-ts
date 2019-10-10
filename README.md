@@ -1,5 +1,5 @@
 # puppeteer-spider-ts
-Puppeteer-based crawler, flexible configuration of js files can climb various websites
+A crawler based on Puppeteer , flexible configuration of js files can climb various websites
 
 ### Todo list
 
